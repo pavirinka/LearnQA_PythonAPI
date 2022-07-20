@@ -1,0 +1,6 @@
+import requests
+gi
+response = requests.get('https://playground.learnqa.ru/api/long_redirect')
+print(response.history)
+print(len(response.history))
+print(response.url)
