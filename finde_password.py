@@ -22,17 +22,3 @@ for i in range(0,table_list_len):
         continue
 
 
-#print(table)
-#
-#numbers = [1, 2, 2, 3, 3, 4, 5]
-
-#
-#numbers = [1, 2, 2, 3, 3, 4, 5]
-
-#unique_numbers = list(set(table_upd))
-#print(unique_numbers)
-
-#for string in soup.stripped_strings:
-    #print(repr(string))
-#login = super_admin
-
