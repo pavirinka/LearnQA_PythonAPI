@@ -6,5 +6,5 @@ class TestCookie:
         resp_cookie = response.cookies
         print(resp_cookie)
         #resp_cookie = response.cookies.get("HomeWork")
-        assert "hw_value" in resp_cookie,"There in no hw_value in the response"
-        assert "HomeWork" in resp_cookie,"There in no HomeWork in the response"
+        assert response.cookies.get("HomeWork") == "hw_value","There is no cookie 'HomeWork=hw_value' in response"
+
